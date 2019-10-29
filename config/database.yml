@@ -5,11 +5,11 @@ default: &default
 
 development:
   <<: *default
-  database: countries
+  database: country
 
 test:
   <<: *default
-  database: countries
+  database: country
 
 production:
   <<: *default
